@@ -1,10 +1,10 @@
 .calender {
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 80px 10px;
+  margin: 10px 10px;
   border-radius: 20px;
-  /*height: 150px;*/
+  height: 280px;
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .header {
@@ -74,4 +74,27 @@
 .day:nth-child(7n),
 .date:nth-child(7n) {
   color: #396ee2;
+}
+
+.other {
+  opacity: 0.3;
+}
+
+.today {
+  position: relative;
+  /*color: #ffffff;*/
+}
+
+.today::before {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: -1;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #ff0000;
+  border-radius: 10%;
+  transform: translate(-50%, -50%);
+  content: "";
 }
