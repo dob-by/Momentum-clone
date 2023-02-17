@@ -5,8 +5,8 @@ const quotes = [
   },
   {
     quote:
-      "Whenever you see a successful business, someone once made a courageous decision.",
-    author: "Peter Drucker",
+      "You will face many defeats in life, but never let yourself be defeated.",
+    author: "Maya Angelou",
   },
   {
     quote: "Momentum begets momentum, and the best way to start is to start.",

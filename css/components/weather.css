@@ -1,0 +1,11 @@
+#weather span {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#weather {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}

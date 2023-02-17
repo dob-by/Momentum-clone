@@ -1,7 +1,12 @@
 @import "screens/main-screen.css";
 @import "screens/usrname-screen.css";
+
 @import "components/calendar.css";
 @import "components/todo-list.css";
+@import "components/quote.css";
+@import "components/book-mark.css";
+@import "components/music-box.css";
+@import "components/weather.css";
 
 html {
   margin: 0px;
@@ -16,7 +21,7 @@ body {
   display: none;
 }
 
-img {
+#bg-img {
   position: absolute;
   width: 100%;
   height: 105vh;
