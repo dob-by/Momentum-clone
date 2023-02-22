@@ -7,6 +7,8 @@
 @import "components/book-mark.css";
 @import "components/music-box.css";
 @import "components/weather.css";
+@import "components/greeting.css";
+@import "components/clock.css";
 
 html {
   margin: 0px;
@@ -15,6 +17,7 @@ html {
 html,
 body {
   height: 100%;
+  font-family: "Shantell Sans", cursive;
 }
 
 .hidden {

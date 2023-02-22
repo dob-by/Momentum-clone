@@ -1,13 +1,15 @@
 #quote {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   color: white;
   margin: 10px;
-  padding: 20px;
+  padding: 40px;
   border-radius: 20px;
+  height: 100px;
+  display: inline-block;
 }
 
 #quote span {
-  display: block;
+  display: inline-block;
   font-size: 15px;
 }
 

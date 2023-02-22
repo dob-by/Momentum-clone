@@ -1,15 +1,24 @@
+html,
+body {
+  position: relative;
+}
+
 .book_mark {
+  display: inline-block;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   color: white;
   margin-top: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
 }
 
 .book_mark-title {
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .book_mark-img {
@@ -22,26 +31,26 @@
 }
 
 .google-logo img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 25%;
 }
 
 .naver-logo img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 25%;
 }
 
 .youtube-logo img {
-  width: 80px;
-  height: 60px;
+  width: 70px;
+  height: 50px;
   border-radius: 20%;
   margin: 0px;
 }
 
 .github-logo img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 25%;
 }

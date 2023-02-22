@@ -1,5 +1,8 @@
 body {
   display: flex;
+  position: static;
+  height: 900px;
+  margin: 0px;
 }
 
 form {
@@ -12,12 +15,14 @@ form {
 .box {
   margin: 20px 10px;
   border-radius: 20px;
-  height: 90vh;
+  height: 90%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .left-box {
   width: 30%;
+  position: relative;
+  height: 90vh;
 }
 
 .center-box {
@@ -27,16 +32,11 @@ form {
 .right-box {
   width: 30%;
   background: none;
+  position: relative;
+  height: 90vh;
 }
 
-#clock {
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
-  color: white;
-}
-
-#greeting {
-  display: flex;
-  justify-content: center;
+#quote {
+  position: absolute;
+  bottom: 20px;
 }

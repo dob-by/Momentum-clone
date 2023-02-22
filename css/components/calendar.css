@@ -1,7 +1,7 @@
 .calender {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
-  height: 280px;
+  min-height: 50%;
   color: white;
   padding: 20px;
 }
@@ -13,7 +13,6 @@
 }
 
 .year-month {
-  /*font-size: 10px;*/
   color: white;
   display: flex;
   justify-content: center;
@@ -30,7 +29,6 @@
   width: 28px;
   height: 30px;
   border: none;
-  /*font-size: 10px;*/
   line-height: 34px;
   background-color: transparent;
   cursor: pointer;
@@ -61,8 +59,8 @@
 .date {
   width: 13.899%;
   text-align: center;
-  align-items: center;
-  padding: 5px 0px;
+  /*align-items: center;*/
+  padding: 10px 0px;
 }
 
 .day:nth-child(7n + 1),
@@ -82,13 +80,12 @@
 .today {
   position: relative;
   display: flex;
-  /*text-align: center;*/
+  height: auto;
+  align-items: center;
   justify-content: center;
   color: white;
   background-color: palevioletred;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
+  border-radius: 70px;
 }
 
 .today::before {
@@ -97,10 +94,17 @@
   left: 50%;*/
   z-index: -1;
   display: block;
-  width: 30px;
-  height: 30px;
-  /*background-color: #ff0000;*/
+
   border-radius: 10%;
   transform: translate(-50%, -50%);
   content: "";
+}
+
+.go-today {
+  font-family: "Shantell Sans", cursive;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
 }
