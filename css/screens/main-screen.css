@@ -3,6 +3,7 @@ body {
   position: static;
   height: 900px;
   margin: 0px;
+  position: absolute;
 }
 
 form {
@@ -13,27 +14,37 @@ form {
 }
 
 .box {
-  margin: 20px 10px;
+  /*margin: 20px 10px;*/
   border-radius: 20px;
-  height: 90%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .left-box {
-  width: 30%;
+  width: 35%;
   position: relative;
-  height: 90vh;
+  bottom: 0px;
+  background: none;
+  margin: 20px;
+  height: 700px;
+}
+
+.left-box div {
+  margin: 0px;
 }
 
 .center-box {
-  width: 40%;
+  width: 50%;
+  position: relative;
+  bottom: 0px;
+  margin: 20px;
+  height: 700px;
 }
 
 .right-box {
-  width: 30%;
   background: none;
   position: relative;
   height: 90vh;
+  right: 0px;
 }
 
 #quote {

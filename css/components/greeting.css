@@ -2,6 +2,12 @@
   display: flex;
   justify-content: center;
   color: white;
+  margin-top: 40px;
+  font-size: 45px;
+}
+
+.greet {
+  margin-top: 30px;
 }
 
 .usr-name {

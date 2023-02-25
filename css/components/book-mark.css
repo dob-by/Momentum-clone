@@ -4,53 +4,54 @@ body {
 }
 
 .book_mark {
-  display: inline-block;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   color: white;
-  margin-top: 20px;
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+  margin-right: 10px;
+}
+
+.book_mark-img {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .book_mark-title {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
-  font-size: 23px;
-}
-
-.book_mark-img {
-  display: flex;
-  justify-content: center;
-}
-
-.book_mark-img img {
-  margin: 0px 5px;
+  font-size: 20px;
 }
 
 .google-logo img {
   width: 50px;
   height: 50px;
   border-radius: 25%;
+  margin-bottom: 10px;
 }
 
 .naver-logo img {
   width: 50px;
   height: 50px;
   border-radius: 25%;
+
+  margin-bottom: 10px;
 }
 
 .youtube-logo img {
   width: 70px;
   height: 50px;
-  border-radius: 20%;
-  margin: 0px;
+  border-radius: 25%;
+  margin-left: 5px;
 }
 
 .github-logo img {
   width: 50px;
   height: 50px;
   border-radius: 25%;
+  margin-bottom: 6px;
 }
