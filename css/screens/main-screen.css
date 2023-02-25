@@ -3,6 +3,7 @@ body {
   position: static;
   height: 900px;
   margin: 0px;
+  padding: 10px;
   position: absolute;
 }
 
@@ -19,6 +20,17 @@ form {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.top {
+  display: flex;
+  width: 100%;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .left-box {
   width: 35%;
   position: relative;
@@ -33,10 +45,10 @@ form {
 }
 
 .center-box {
-  width: 50%;
+  width: 52%;
   position: relative;
   bottom: 0px;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
   height: 700px;
 }
 

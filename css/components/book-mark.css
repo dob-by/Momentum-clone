@@ -19,6 +19,8 @@ body {
   display: inline-block;
   text-align: center;
   margin-top: 20px;
+  position: absolute;
+  right: -80px;
 }
 
 .book_mark-title {

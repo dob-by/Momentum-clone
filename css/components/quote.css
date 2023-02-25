@@ -1,20 +1,17 @@
 #quote {
-  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
   color: white;
-  padding: 40px;
-  margin: 0px 10px;
-  border-radius: 20px;
-  height: 100px;
-  display: inline-block;
+  font-size: 13px;
+  font-weight: 200;
+  left: 0%;
 }
 
 #quote span {
-  display: inline-block;
-  font-size: 15px;
+  display: block;
 }
 
-#quote span:last-child {
-  display: flex;
-  justify-content: right;
-  margin-top: 10px;
+#quote span:first-child {
+  margin-right: 20px;
 }
