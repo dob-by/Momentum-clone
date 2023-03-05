@@ -7,3 +7,9 @@
   margin: 0px 0px 20px 0px;
   width: 400px;
 }
+
+.weather-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

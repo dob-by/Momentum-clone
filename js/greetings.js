@@ -3,6 +3,7 @@ const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
+const body = document.querySelector("body");
 
 function onLoginSubmit(event) {
   event.preventDefault();
@@ -26,4 +27,20 @@ if (savedUsername === null) {
   paintGreetings(savedUsername);
 }
 
+function removeHidden(event) {
+  event.preventDefault();
+  const centerBox = document.querySelector(".center-box");
+
+  centerBox.classList.remove("hidden");
+  localStorage.setItem("hidden?", "yes");
+}
+
+const hiddenCheck = localStorage.getItem("hidden?");
+
+if (hiddenCheck === "yes") {
+  const centerBox = document.querySelector(".center-box");
+  centerBox.classList.remove("hidden");
+}
+
 loginForm.addEventListener("submit", onLoginSubmit);
+loginForm.addEventListener("submit", removeHidden);
