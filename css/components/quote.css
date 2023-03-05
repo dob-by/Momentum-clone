@@ -1,11 +1,13 @@
 #quote {
   position: absolute;
-  bottom: 15px;
-  width: 100%;
+  top: 5px;
+  width: 100vw;
   color: white;
   font-size: 13px;
   font-weight: 200;
   left: 0%;
+  bottom: 0px;
+  margin: 10px 0px;
 }
 
 #quote span {

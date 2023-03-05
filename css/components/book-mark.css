@@ -4,14 +4,14 @@ body {
 }
 
 .book_mark {
+  /*display: flex;*/
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   color: white;
-  width: 100%;
-  position: absolute;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
+  width: 100px;
+  height: 100vh;
+  /*position: absolute;*/
+  position: relative;
   margin-right: 10px;
 }
 

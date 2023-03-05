@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 85px;
   color: white;
   margin: 0px 0px 20px 0px;
+  width: 400px;
 }
