@@ -17,79 +17,78 @@
   </head>
 
   <div class="size-over">Your screen is too small :-(</div>
-  <body>
-    <div class="top">
-      <div class="bottom" id="quote">
-        <span></span>
-        <span></span>
-      </div>
-      <div class="box left-box">
-        <form class="hidden" id="login-form">
-          <input
-            required
-            maxlength="15"
-            type="text"
-            placeholder="What is your name?"
-            class="usr-name"
-          />
-          <button>Login</button>
-        </form>
-        <div class="greet">
-          <h1 id="greeting" class="hidden"></h1>
-        </div>
-        <div class="weather-clock">
-          <div id="weather">
-            <span></span>
-            <span></span>
-          </div>
-          <h2 id="clock">00:00:00</h2>
-        </div>
-        <div class="calender">
-          <div class="header">
-            <div class="nav">
-              <div>
-                <button class="nav-btn go-prev" onclick="prevMonth()">
-                  &lt;
-                </button>
-              </div>
-              <div class="year-month"></div>
-              <div>
-                <button class="nav-btn go-next" onclick="nextMonth()">
-                  &gt;
-                </button>
-              </div>
-            </div>
-            <div class="main">
-              <div class="days">
-                <div class="day">Sun</div>
-                <div class="day">Mon</div>
-                <div class="day">Tue</div>
-                <div class="day">Wed</div>
-                <div class="day">Thu</div>
-                <div class="day">Fri</div>
-                <div class="day">Sat</div>
-              </div>
-              <div class="dates"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="box center-box hidden">
-        <form id="todo-form">
-          <input type="text" placeholder="오늘의 할일을 적어주세요!" required />
-        </form>
-        <ul id="todo-list"></ul>
-      </div>
-      </div>
-     
+  <body><div class="top">
+    <div class="bottom" id="quote">
+      <span></span>
+      <span></span>
     </div>
+    <div class="box left-box">
+      <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+          class="usr-name"
+        />
+        <button>Login</button>
+      </form>
+      <div class="greet">
+        <h1 id="greeting" class="hidden"></h1>
+      </div>
+      <div class="weather-clock">
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+        <h2 id="clock">00:00:00</h2>
+      </div>
+      <div class="calender">
+        <div class="header">
+          <div class="nav">
+            <div>
+              <button class="nav-btn go-prev" onclick="prevMonth()">
+                &lt;
+              </button>
+            </div>
+            <div class="year-month"></div>
+            <div>
+              <button class="nav-btn go-next" onclick="nextMonth()">
+                &gt;
+              </button>
+            </div>
+          </div>
+          <div class="main">
+            <div class="days">
+              <div class="day">Sun</div>
+              <div class="day">Mon</div>
+              <div class="day">Tue</div>
+              <div class="day">Wed</div>
+              <div class="day">Thu</div>
+              <div class="day">Fri</div>
+              <div class="day">Sat</div>
+            </div>
+            <div class="dates"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box center-box hidden">
+      <form id="todo-form">
+        <input type="text" placeholder="오늘의 할일을 적어주세요!" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    </div>
+   
+  </div>
 
-    <script src="js/greetings.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/quotes.js"></script>
-    <script src="js/background.js"></script>
-    <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/calendar.js"></script>
-  </body>
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/calendar.js"></script>
+</body>
 </html>
